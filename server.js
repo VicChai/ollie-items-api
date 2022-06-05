@@ -6,15 +6,6 @@ const PORT = 8000
 app.use(cors())
 
 const ollieStuff = {
-    'humans':{
-        'speciesName' : 'Humans',
-        'homeworld': 'Earth',
-        'location': 'Alpha Quadrant',
-        'features':'Rounded ears, hair on head and face (sometimes)',
-        'interestingFact': 'Founded the United Federation of Planets after first contact with the Vulcans' ,
-        'notableExamples' : "James T. Kirk, Zephram Cochran, Abraham Lincoln",
-        'image': 'https://static.wikia.nocookie.net/aliens/images/6/68/The_City_on_the_Edge_of_Forever.jpg'
-    },
     'small dog':{
         'nickname': 'Xiao Gou Gou',
         'image': 'https://www.hartz.com/wp-content/uploads/2012/06/five_things_all_small_dog_owners_should_know_2000x786.jpg' 
